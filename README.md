@@ -5,14 +5,14 @@ A simple Node.js package to search for YouTube videos and get download URLs for 
 ## Installation
 
 ```
-npm install youtube-dl-helper
+npm install downloader-by-abro
 ```
 
 ## Usage
 
 ```javascript
 require('dotenv').config();
-const YouTubeHelper = require('youtube-dl-helper');
+const YouTubeHelper = require('downloader-by-abro');
 
 const ytHelper = new YouTubeHelper(process.env.YOUTUBE_API_KEY);
 
